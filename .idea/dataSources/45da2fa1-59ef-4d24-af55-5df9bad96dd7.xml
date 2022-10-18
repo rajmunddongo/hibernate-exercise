@@ -3,15 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.43">
     <root id="1">
       <DateStyle>ymd</DateStyle>
-      <Grants>1||-9223372036854775808|c|G
-1||10|c|G
-1||10|C|G
-1||10|T|G
-13753||-9223372036854775808|c|G
-13753||10|c|G
-13753||10|C|G
-13753||10|T|G
-16394||-9223372036854775808|c|G
+      <Grants>16394||-9223372036854775808|c|G
 16394||10|c|G
 16394||16395|c|G
 16394||10|C|G
@@ -19,7 +11,7 @@
 16394||-9223372036854775808|T|G
 16394||10|T|G
 16394||16395|T|G</Grants>
-      <IntrospectionStateNumber>744</IntrospectionStateNumber>
+      <IntrospectionStateNumber>817</IntrospectionStateNumber>
       <ServerVersion>14.5</ServerVersion>
       <StartupTime>1665259843</StartupTime>
       <TimeZones>true ACDT
@@ -825,7 +817,7 @@ false Zulu
 13388||10|C|G
 13388||-9223372036854775808|U|G
 13388||10|U|G</Grants>
-      <IntrospectionStateNumber>744</IntrospectionStateNumber>
+      <IntrospectionStateNumber>817</IntrospectionStateNumber>
       <ObjectId>24576</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -4253,10 +4245,145 @@ false Zulu
     <schema id="264" parent="4" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>744</IntrospectionStateNumber>
+      <IntrospectionStateNumber>817</IntrospectionStateNumber>
       <ObjectId>2200</ObjectId>
       <StateNumber>527</StateNumber>
       <OwnerName>postgres</OwnerName>
     </schema>
+    <table id="265" parent="264" name="friend_table">
+      <ObjectId>24722</ObjectId>
+      <StateNumber>814</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="266" parent="264" name="phone">
+      <ObjectId>24729</ObjectId>
+      <StateNumber>815</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="267" parent="264" name="phone_friend_table">
+      <ObjectId>24734</ObjectId>
+      <StateNumber>814</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <column id="268" parent="265" name="id">
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>811</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="269" parent="265" name="givenname">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>2</Position>
+      <StateNumber>811</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="270" parent="265" name="surname">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>3</Position>
+      <StateNumber>811</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="271" parent="265" name="companyname">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>4</Position>
+      <StateNumber>811</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="272" parent="265" name="location">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>5</Position>
+      <StateNumber>811</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="273" parent="265" name="friend_table_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>24727</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>811</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="274" parent="265" name="friend_table_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>24728</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>811</StateNumber>
+      <UnderlyingIndexId>24727</UnderlyingIndexId>
+    </key>
+    <column id="275" parent="266" name="id">
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>812</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="276" parent="266" name="brand">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>2</Position>
+      <StateNumber>812</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="277" parent="266" name="versionnumber">
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>812</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="278" parent="266" name="phone_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>24732</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>812</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="279" parent="266" name="phone_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>24733</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>812</StateNumber>
+      <UnderlyingIndexId>24732</UnderlyingIndexId>
+    </key>
+    <column id="280" parent="267" name="phone_id">
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>813</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="281" parent="267" name="friend_id">
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>813</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="282" parent="267" name="fkkuuxx5dyvbp6w9g2ur17a946g">
+      <ColNames>phone_id</ColNames>
+      <ObjectId>24742</ObjectId>
+      <RefColNames>id</RefColNames>
+      <RefColPositions>1</RefColPositions>
+      <StateNumber>815</StateNumber>
+      <RefTableId>24729</RefTableId>
+      <RefTableName>phone</RefTableName>
+      <RefTableKind>table</RefTableKind>
+    </foreign-key>
+    <foreign-key id="283" parent="267" name="fkjt1a024iwq67whsd6wli7843k">
+      <ColNames>friend_id</ColNames>
+      <ObjectId>24737</ObjectId>
+      <RefColNames>id</RefColNames>
+      <RefColPositions>1</RefColPositions>
+      <StateNumber>814</StateNumber>
+      <RefTableId>24722</RefTableId>
+      <RefTableName>friend_table</RefTableName>
+      <RefTableKind>table</RefTableKind>
+    </foreign-key>
   </database-model>
 </dataSource>
