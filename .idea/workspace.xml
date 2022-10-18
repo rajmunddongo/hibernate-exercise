@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54b1d3f4-bb73-44b9-bf40-6b0506e1a1c7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/hibernate-exercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hibernate-exercise.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rajmi/Friend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rajmi/Friend.java" afterDir="false" />
@@ -74,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666090824910</updated>
       <workItem from="1666090826638" duration="10299000" />
-      <workItem from="1666106025813" duration="1063000" />
+      <workItem from="1666106025813" duration="2227000" />
     </task>
     <servers />
   </component>

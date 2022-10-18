@@ -2,6 +2,7 @@ package com.rajmi;
 
 
 import jakarta.persistence.*;
+import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import java.sql.Array;
@@ -11,7 +12,7 @@ import java.util.List;
 @Entity(name="friend")
 @Table(name="friend_table")
 @Cacheable
-@Cache(usage=CacheConcurrencyStrategy.READ_ONLY)
+@Cache(usage = CacheConcurrencyStrategy.READ_ONLY)
 public class Friend {
     @Id
     int id;
