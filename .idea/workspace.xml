@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54b1d3f4-bb73-44b9-bf40-6b0506e1a1c7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/45da2fa1-59ef-4d24-af55-5df9bad96dd7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/45da2fa1-59ef-4d24-af55-5df9bad96dd7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/45da2fa1-59ef-4d24-af55-5df9bad96dd7/storage_v2/_src_/database/testdb.kHS3yw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/45da2fa1-59ef-4d24-af55-5df9bad96dd7/storage_v2/_src_/database/testdb.kHS3yw/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rajmi/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rajmi/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rajmi/Friend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rajmi/Friend.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/rajmi/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rajmi/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/rajmi/Friend.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rajmi/Friend.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Allround/hibernate-exercise/hibernate-exercise",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -78,6 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666090824910</updated>
       <workItem from="1666090826638" duration="10299000" />
+      <workItem from="1666106025813" duration="1063000" />
     </task>
     <servers />
   </component>
